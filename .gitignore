@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Kalau suatu saat install dependency lewat npm (bukan cuma npx)
+node_modules/
