@@ -2,7 +2,7 @@
 
 Kue ulang tahun yang dapat dipasangi lilin dengan cara diklik, kemudian ditiup langsung melalui mikrofon untuk memadamkan apinya. Setelah seluruh lilin padam, aplikasi akan menampilkan confetti dan memutar lagu ulang tahun.
 
-Proyek ini pada awalnya hanya berupa animasi kue berbasis CSS, kemudian ditambahkan fitur deteksi tiupan melalui mikrofon agar interaksinya tidak sekadar klik.
+Proyek ini pada awalnya hanya berupa animasi kue berbasis CSS dengan fitur deteksi tiupan melalui mikrofon agar interaksinya tidak sekadar klik, kemudian ditambahkan efek confetti dan lagu.
 
 ## Menjalankan proyek
 
