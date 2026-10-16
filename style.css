@@ -7,11 +7,17 @@ html, body {
   margin: 0;
 }
 
-body {
-  background: radial-gradient(circle at 50% 38%, #33204a 0%, #1b1226 60%, #120a1a 100%);
-  min-height: 100vh;
-  font-family: 'Baloo 2', 'Segoe UI', sans-serif;
-  overflow: hidden;
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100lvh;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(27, 18, 38, 0.55) 0%, rgba(18, 10, 26, 0.75) 60%, rgba(18, 10, 26, 0.88) 100%),
+    url("image/bg.jpg") center center / cover no-repeat;
 }
 
 #messageDisplay {
